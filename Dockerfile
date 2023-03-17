@@ -20,7 +20,8 @@ RUN apt-get update && \
         ros-foxy-teleop-twist-joy \
         ros-foxy-rosbridge-server \
         libi2c-dev \
-        ros-foxy-image-transport
+        ros-foxy-image-transport \
+        libgpiod-dev
 
 
 ENTRYPOINT ["./ros_entrypoint.sh"]
