@@ -22,7 +22,9 @@ RUN apt-get update && \
         libi2c-dev \
         ros-foxy-image-transport \
         libgpiod-dev \
-	ros-foxy-cv-bridge
+        ros-foxy-cv-bridge \
+        ros-foxy-camera-calibration-parsers \
+        ros-foxy-camera-info-manager
 
 
 ENTRYPOINT ["./ros_entrypoint.sh"]
