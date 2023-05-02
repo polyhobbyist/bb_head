@@ -21,7 +21,8 @@ RUN apt-get update && \
         ros-foxy-rosbridge-server \
         libi2c-dev \
         ros-foxy-image-transport \
-        libgpiod-dev
+        libgpiod-dev \
+	ros-foxy-cv-bridge
 
 
 ENTRYPOINT ["./ros_entrypoint.sh"]
