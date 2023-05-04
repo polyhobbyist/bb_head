@@ -1,8 +1,4 @@
 repositories:
-  cv_camera:
-    type: git
-    url: https://github.com/Kapernikov/cv_camera
-    version: main
   ros_qwiic_tof:
     type: git
     url: https://github.com/polyhobbyist/ros_qwiic_tof
